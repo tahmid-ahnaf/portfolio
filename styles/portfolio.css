@@ -94,8 +94,8 @@ main {
   margin: 0 auto;
 }
 
-main section{
-    margin-top:130px;
+main section {
+  margin-top: 130px;
 }
 /* about section styles */
 
@@ -140,10 +140,6 @@ main section{
 }
 
 /* what i do section */
-
-.what-i-do {
-
-}
 .what-i-do-description {
   color: var(--Dark-03, #757575);
   text-align: center;
@@ -167,7 +163,6 @@ main section{
 .skills-container {
   display: flex;
   gap: 24px;
-  
 }
 
 .skill {
@@ -176,4 +171,44 @@ main section{
   border-radius: 5px;
   background: #fff;
   box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+/* resume section */
+
+.resume-column-title {
+  color: var(--Dark-02, #474747);
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.resume-container {
+  display: flex;
+  gap: 50px;
+}
+
+.resume-item-title {
+  color: var(--Dark-02, #474747);
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.resume-item-institute {
+  color: var(--Dark-03, #757575);
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+.resume-item-description {
+  color: var(--Dark-03, #757575);
+  font-size: 16px;
+  font-weight: 400;
+  padding-right: 100px ;
+}
+
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
 }
